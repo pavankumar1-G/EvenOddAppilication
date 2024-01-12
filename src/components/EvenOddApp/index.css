@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: Roboto;
+}
+.content-container {
+  background: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading {
+  font-size: 35px;
+  color: #0f172a;
+  font-weight: 600;
+}
+.sub-heading {
+  font-size: 25px;
+  color: #334155;
+}
+button {
+  height: 36px;
+  width: 128px;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.note {
+  color: #1e293b;
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    height: 600px;
+    width: 600px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .sub-heading {
+    font-size: 35px;
+  }
+  button {
+    height: 46px;
+    width: 148px;
+    font-size: 20px;
+  }
+  .note {
+    font-size: 20px;
+  }
+}
